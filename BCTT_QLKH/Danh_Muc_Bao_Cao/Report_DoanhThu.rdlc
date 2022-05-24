@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Báo Cáo Doanh Thu</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox4</rd:DefaultName>
+        <Top>0.16in</Top>
+        <Left>3.15416in</Left>
+        <Height>0.34167in</Height>
+        <Width>3.43333in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Thời Gian Từ :  </Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>13pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox5</rd:DefaultName>
+        <Top>0.965in</Top>
+        <Left>2.1125in</Left>
+        <Height>0.25in</Height>
+        <Width>1.25in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Đến : </Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>13pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox6</rd:DefaultName>
+        <Top>0.965in</Top>
+        <Left>5.00417in</Left>
+        <Height>0.25in</Height>
+        <Width>1in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.65749in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.85833in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.29167in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.175in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox10">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>STT</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox10</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox12">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Mã Hàng</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox12</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox14">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Tên Hàng</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox14</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox18">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Số Lượng Bán</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox18</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox16">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Giá Bán</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox16</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox20">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Thành Tiền</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox20</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox11">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=RowNumber(nothing)</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox11</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="MaHang">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!MaHang.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>MaHang</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TenHang">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TenHang.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TenHang</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="SLGiao">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!SLGiao.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>SLGiao</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="GiaGiao">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!GiaGiao.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>GiaGiao</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TienGiao">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TienGiao.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TienGiao</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox22">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox22</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>White</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>White</Color>
+                        </RightBorder>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox23">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox23</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>White</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>White</Color>
+                        </RightBorder>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox24">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox24</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>White</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>White</Color>
+                        </RightBorder>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox25">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox25</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>White</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>White</Color>
+                        </RightBorder>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox26">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox26</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>White</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>White</Color>
+                        </RightBorder>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox27">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox27</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <LeftBorder>
+                          <Color>White</Color>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>White</Color>
+                        </RightBorder>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox28">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox28</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>White</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox34">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox34</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>White</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox30">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Tổng :</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox30</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>White</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox31">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!SLGiao.Value)</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox31</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>White</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox32">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox32</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>White</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox33">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!TienGiao.Value)</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>13pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox33</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>White</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>Before</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>Before</KeepWithGroup>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>1.64166in</Top>
+        <Left>0.78in</Left>
+        <Height>1in</Height>
+        <Width>6.98249in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <FontFamily>Times New Roman</FontFamily>
+          <FontSize>13pt</FontSize>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>2.88333in</Height>
+    <Style>
+      <BackgroundColor>White</BackgroundColor>
+    </Style>
+  </Body>
+  <Width>8.24165in</Width>
+  <Page>
+    <PageHeader>
+      <Height>1.07167in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Image Name="Image1">
+          <Source>Embedded</Source>
+          <Value>hiec</Value>
+          <Sizing>FitProportional</Sizing>
+          <Top>0.03584in</Top>
+          <Height>0.97222in</Height>
+          <Width>1.21667in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+        <Textbox Name="Textbox1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Left>5.11249in</Left>
+          <Height>0.25in</Height>
+          <Width>2.81167in</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Độc Lập - Tự Do - Hạnh Phúc</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox2</rd:DefaultName>
+          <Top>0.29167in</Top>
+          <Left>5.49582in</Left>
+          <Height>0.25in</Height>
+          <Width>1.975in</Width>
+          <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Line Name="Line1">
+          <Top>0.61111in</Top>
+          <Left>5.92082in</Left>
+          <Height>0in</Height>
+          <Width>1.15833in</Width>
+          <ZIndex>3</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Textbox Name="Textbox3">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>......,Ngày....Tháng....Năm</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox3</rd:DefaultName>
+          <Top>0.82167in</Top>
+          <Left>6.17915in</Left>
+          <Height>0.25in</Height>
+          <Width>2.00333in</Width>
+          <ZIndex>4</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+        <BackgroundColor>White</BackgroundColor>
+      </Style>
+    </PageHeader>
+    <PageFooter>
+      <Height>1in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+        <BackgroundColor>White</BackgroundColor>
+      </Style>
+    </PageFooter>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSet_BaoCao">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>ea61de22-19a2-483c-b640-6b6ebab2ef74</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSet_BaoCao</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="MaHang">
+          <DataField>MaHang</DataField>
+          <rd:TypeName>System.Char</rd:TypeName>
+        </Field>
+        <Field Name="TenHang">
+          <DataField>TenHang</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SLGiao">
+          <DataField>SLGiao</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="GiaGiao">
+          <DataField>GiaGiao</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TienGiao">
+          <DataField>TienGiao</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet_BaoCao</rd:DataSetName>
+        <rd:SchemaPath>E:\Bao_Cao_Thuc_Tap\BCTT_QLKH\BCTT_QLKH\Danh_Muc_Bao_Cao\DataSet_BaoCao.xsd</rd:SchemaPath>
+        <rd:TableName>DT1</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="hiec">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>3f593f8e-31b1-4db7-8847-30cb7cd8753f</rd:ReportID>
+</Report>
